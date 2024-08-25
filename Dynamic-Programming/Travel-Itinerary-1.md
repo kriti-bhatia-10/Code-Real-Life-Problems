@@ -37,6 +37,8 @@ travel_matrix = [
 ]
 
 **Example Output:**
-- 39
+39
+
+**Explanation:**
 - The optimal route is A -> B -> D -> C -> A
 - 5 (A->B) + 6 (B->D) + 18 (D->C) + 10 (C->A) = 39
