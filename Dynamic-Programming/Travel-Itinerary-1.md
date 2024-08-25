@@ -30,13 +30,13 @@ Given cities `A`, `B`, `C`, and `D`, the `travel_matrix` is as follows:
 **Example Input:**
 n = 4
 travel_matrix = [
-    [0,   5, 10, 20]  # A
-    [5,   0, 11,  6]  # B
-    [10, 11,  0, 18]  # C
-    [20,  6, 18,  0]  # D
+    [0,   5, 10, 20],
+    [5,   0, 11,  6],
+    [10, 11,  0, 18],
+    [20,  6, 18,  0]
 ]
 
 **Example Output:**
-34
-The optimal route is A -> B -> D -> C -> A
-5 (A->B) + 6 (B->D) + 18 (D->C) + 10 (C->A) = 39
+- 39
+- The optimal route is A -> B -> D -> C -> A
+- 5 (A->B) + 6 (B->D) + 18 (D->C) + 10 (C->A) = 39
