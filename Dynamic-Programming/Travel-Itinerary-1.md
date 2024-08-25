@@ -28,7 +28,7 @@ Given cities `A`, `B`, `C`, and `D`, the `travel_matrix` is as follows:
 | D | 20 |  6 | 18 |  0 |
 
 **Example Input:**
-n = 4
+n = 4,
 travel_matrix = [
     [0,   5, 10, 20],
     [5,   0, 11,  6],
